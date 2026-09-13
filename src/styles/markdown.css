@@ -1,0 +1,24 @@
+.markdown-body { color: var(--dsw-alias-label-primary); overflow-wrap: anywhere; font-size: 14px; line-height: 24px; }
+.markdown-body p { margin: .5em 0; }
+.markdown-body > :first-child { margin-top: 0; }
+.markdown-body > :last-child { margin-bottom: 0; }
+.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4 { margin: 1em 0 .45em; line-height: 1.35; }
+.markdown-body h1 { font-size: 1.55em; }.markdown-body h2 { font-size: 1.35em; }.markdown-body h3 { font-size: 1.17em; }
+.markdown-body ul,.markdown-body ol { margin: .45em 0; padding-left: 1.6em; }
+.markdown-body li { margin: .2em 0; }.markdown-body li > p { margin: 0; }
+.markdown-body blockquote { margin: .7em 0; padding: .25em 1em; border-left: 3px solid #b8c6df; color: var(--dsw-alias-label-secondary); background: #f8f9fb; }
+.markdown-body :not(pre) > code { padding: 2px 6px; border-radius: 5px; background: #f1f3f5; font: .9em/1.5 Consolas, monospace; }
+.markdown-body a { color: #386fdc; text-decoration: none; }.markdown-body a:hover { text-decoration: underline; }
+.markdown-body img { max-width: 100%; border-radius: 8px; }
+.markdown-body hr { border: 0; border-top: 1px solid var(--dsw-alias-border-l2); }
+.md-table-wrapper { max-width: 100%; margin: .7em 0; overflow-x: auto; }
+.markdown-body table { border-collapse: collapse; min-width: 100%; }
+.markdown-body td,.markdown-body th { padding: 6px 10px; border: 1px solid var(--dsw-alias-border-l2); text-align: left; }
+.markdown-body tr:first-child td { background: #f7f8fa; font-weight: 600; }
+.md-code-block { margin: 10px 0; overflow: hidden; border: 1px solid var(--dsw-alias-border-l2); border-radius: 9px; background: #f7f8fa; }
+.md-code-head { display: flex; align-items: center; justify-content: space-between; height: 32px; padding: 0 9px 0 12px; border-bottom: 1px solid var(--dsw-alias-border-l1); color: var(--dsw-alias-label-tertiary); font-size: 11px; }
+.md-code-head button { display: flex; align-items: center; gap: 4px; cursor: pointer; color: inherit; font-size: 11px; }
+.md-code-highlight,.md-code-block pre { max-height: 520px; margin: 0; overflow: auto; }
+.md-code-highlight pre,.md-code-block pre { padding: 12px 14px !important; background: transparent !important; font: 12px/20px Consolas, monospace; }
+.md-math-block { display: block; max-width: 100%; overflow-x: auto; padding: 8px 0; text-align: center; }
+

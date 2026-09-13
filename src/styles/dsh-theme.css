@@ -1,0 +1,36 @@
+/* Token subset vendored from packages/client/ui-theme/src/styles in the official
+   deepseek-harness source. Component geometry follows the official CSS modules. */
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+  color: #202226;
+  background: #fff;
+  font-synthesis: none;
+  --dsw-alias-bg-base: #fff;
+  --dsw-alias-bg-module-platform: #f5f6f7;
+  --dsw-alias-bg-layer-1: #fff;
+  --dsw-alias-interactive-bg-hover: rgba(15, 17, 21, .05);
+  --dsw-alias-interactive-bg-hover-solid: #f1f3f5;
+  --dsw-alias-interactive-bg-selected: #e9edf3;
+  --dsw-alias-border-l1: rgba(0, 0, 0, .04);
+  --dsw-alias-border-l2: rgba(0, 0, 0, .1);
+  --dsw-alias-border-l3: rgba(0, 0, 0, .12);
+  --dsw-alias-label-primary: #202226;
+  --dsw-alias-label-secondary: #5c6068;
+  --dsw-alias-label-tertiary: #81858c;
+  --dsw-alias-label-caption: #a0a4aa;
+  --dsw-alias-state-error-primary: #d94343;
+  --dsw-alias-button-info-fill: #4176e6;
+  --dsw-alias-button-info-hover: #3969d1;
+  --dsw-specific-bubble: #edf3fe;
+  --dsw-shadow-lv2: 0 4px 16px rgba(0, 0, 0, .09);
+}
+
+* { box-sizing: border-box; }
+html, body, #root { width: 100%; height: 100%; margin: 0; }
+button, input, textarea, select { font: inherit; }
+button { color: inherit; }
+body { overflow: hidden; background: var(--dsw-alias-bg-base); }
+.dsh-icon { display: block; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+::selection { background: #d3e2ff; }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { border: 2px solid transparent; border-radius: 8px; background: rgba(95, 101, 110, .25); background-clip: padding-box; }

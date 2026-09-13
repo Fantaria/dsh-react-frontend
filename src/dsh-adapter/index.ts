@@ -1,0 +1,7 @@
+export { DshClient } from './api/client'
+export { DshProtocolError, DshRemoteError, DshTransportError, errorText } from './errors/remote-error'
+export { projectConversation } from './projectors/conversation'
+export { credentialRefs, settingsApi } from './api/settings'
+export { authenticateDsh } from './api/auth'
+export type { HistoryPage, HostFrame, MuxFrame, SessionWireEvent } from './types/wire'
+export type { CredentialInfo, PluginInventorySnapshot, SettingsNamespace, SettingsSnapshot } from './types/settings'
